@@ -10,7 +10,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Клонируем репозиторий из GitHub
-                git 'https://github.com/georgakov/123123.git'
+                git 'https://github.com/IgorPimahhov/reposit.git'
             }
         }
 
